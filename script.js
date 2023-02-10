@@ -15,7 +15,7 @@ fetch('https://randomuser.me/api/')
     let h2 = document.createElement('h2');
     
 
-    h2.innerHTML = `${data.name.first}  ${data.last}`;
+    h2.innerHTML = `${data.name.first}  ${data.name.last}`;
     user.appendChild(h2);
 
     console.log(data);
