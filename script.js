@@ -26,6 +26,9 @@ function getAnother(){
         data = result.results[0];
         let user = document.getElementById('user');
         user.innerHTML = "";
+
+        let info = document.getElementById('info');
+        info.innerHTML = "";
     
         let img = document.createElement('img');
         img.src = data.picture.large;
